@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>SORADNS</string>
+    <key>PayloadDescription</key>
+    <string>在此设备上使用由SORADNS提供的安全 DNS 解析服务。</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.profile.29f7d4f5-c3fc-41c2-b76f-57de53b70797</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>29f7d4f5-c3fc-41c2-b76f-57de53b70797</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <!-- SORADNS (DoH) -->
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>SORADNS (DoH)</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dns.5c73e5bd-4954-41e7-914d-d180c369708b</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>5c73e5bd-4954-41e7-914d-d180c369708b</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://dns.soraru.org/soradns</string>
+        </dict>
+      </dict>
+      <!-- SORADNS (DoT) -->
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>SORADNS (DoT)</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dns.5a9ce94e-94b0-4cb6-93e6-0acc5bdd073b</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>5a9ce94e-94b0-4cb6-93e6-0acc5bdd073b</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>TLS</string>
+          <key>ServerName</key>
+          <string>dns.soraru.org</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
