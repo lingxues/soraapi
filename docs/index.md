@@ -8,8 +8,8 @@ hero:
   tagline: 免费 多样 简单 好用的API
   actions:
     - theme: brand
-      text: biliroaming
-      link: /biliroaming
+      text: 开始使用
+      link: /more
     - theme: alt
       text: 更多
       link: /more
