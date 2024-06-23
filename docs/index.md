@@ -11,8 +11,8 @@ hero:
       text: 开始使用
       link: /more
     - theme: alt
-      text: 更多
-      link: /more
+      text: 关于
+      link: /about
 
 features:
   - icon: 😊
