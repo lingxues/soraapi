@@ -4,6 +4,8 @@
 
 香港： https://bilihk.soraru.org
 
+香港备用：https://bilihk2.soraru.org
+
 台湾： https://bilitw.soraru.org
 
 ## 网页版
